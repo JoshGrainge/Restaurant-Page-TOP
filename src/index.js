@@ -1,5 +1,7 @@
-import { createMenu } from "./menu";
+import { createTabMenu } from "./tabs";
+import { createHomePage } from "./homePage";
 
 const content = document.querySelector("#content");
 
-createMenu(content);
+createTabMenu(content);
+createHomePage(content);

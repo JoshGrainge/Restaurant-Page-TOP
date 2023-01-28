@@ -33,7 +33,6 @@ button:active {
   background-color: rgb(90, 25, 71);
 }
 
-/* Content section */
 #content {
   margin: auto;
 
@@ -52,6 +51,14 @@ button:active {
   text-align: center;
 }
 
+/* Nav bar */
+#tabs-container {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Menu */
 .card {
   display: flex;
   flex-direction: column;

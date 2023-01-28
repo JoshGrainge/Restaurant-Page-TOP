@@ -1,4 +1,4 @@
-export function createMenu(parent) {
+export function createHomePage(parent) {
   // Create elements
   const menuTitle = document.createElement("h1");
   const card = document.createElement("div");
