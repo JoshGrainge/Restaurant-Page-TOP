@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background: url(pexels-rachel-claire-5531165.jpg) no-repeat center center
+    fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Shared classes */
+button {
+  padding: 30px 60px;
+  border-radius: 50px;
+  border: 0;
+
+  background-color: rgb(121, 35, 95);
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(160, 53, 128);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(90, 25, 71);
+}
+
+/* Content section */
+#content {
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 0 10vw;
+
+  width: 70vw;
+  height: 100vh;
+
+  background: linear-gradient(#000a 10%, #0000);
+  color: white;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
