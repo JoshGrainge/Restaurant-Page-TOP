@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
 
+  box-sizing: border-box;
+
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -44,7 +46,6 @@ button:active {
   padding: 0 10vw;
 
   width: 70vw;
-  height: 100vh;
 
   background: linear-gradient(#000a 10%, #0000);
   color: white;
@@ -56,17 +57,66 @@ button:active {
   width: 50vw;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
-/* Menu */
+/* Home */
+
 .card {
+  margin-top: 25px;
+
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 50px;
 }
 
 .button-section {
+  margin-top: 50px;
+
   display: flex;
   justify-content: space-between;
   gap: 50px;
+}
+
+/* Menu */
+.menu-items-container {
+  background-color: rgba(160, 160, 160, 0.8);
+  border-radius: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  gap: 25px;
+
+  color: black;
+}
+
+.menu-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.menu-item:last-of-type {
+  border-bottom: none;
+}
+
+.menu-item > img {
+  max-width: 125px;
+  height: 125px;
+  object-fit: scale-down;
+  margin-right: 20px;
+}
+
+.item-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+  width: 100%;
+}
+
+.price {
+  float: right;
 }

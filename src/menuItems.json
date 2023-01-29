@@ -1,0 +1,32 @@
+{
+  "0": {
+    "name": "Cheese Burger",
+    "description": "Made with 100% locally sourced ground beef. Comes with sauted onions, fresh cut pickles, and american cheese.",
+    "price": "$6.50",
+    "image": "cheeseburger.png"
+  },
+  "1": {
+    "name": "Cesar Salad",
+    "description": "Tasty salad with many healthy veggies.",
+    "price": "$4.50",
+    "image": "cesar.png"
+  },
+  "2": {
+    "name": "Poutine",
+    "description": "Crispy fries with fresh cheese curds from Quebec, and freshly made gravy.",
+    "price": "$7",
+    "image": "poutine.png"
+  },
+  "3": {
+    "name": "Spaghetti",
+    "description": "Fresh hand made pasta, served with our world famous boulengese recipe.",
+    "price": "$12",
+    "image": "spaghetti.png"
+  },
+  "4": {
+    "name": "BBQ Ribs",
+    "description": "Full stack of ribs, slathered in BBQ sauce and meat that slides off the bone.",
+    "price": "$16",
+    "image": "ribs.png"
+  }
+}
