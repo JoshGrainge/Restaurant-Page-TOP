@@ -4,7 +4,7 @@
 
   box-sizing: border-box;
 
-  font-family: "Courier New", Courier, monospace;
+  font-family: Helvetica, Arial, Verdana, Trebuchet, sans-serif;
 }
 
 body {
@@ -138,6 +138,8 @@ button:active {
   height: 50vh;
 
   text-align: left;
+
+  padding-bottom: 50px;
 }
 
 .store-info-section {
