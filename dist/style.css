@@ -43,11 +43,11 @@ button:active {
   justify-content: space-around;
   align-items: center;
 
-  padding: 0 10vw;
+  padding: 0 25px;
 
   width: 70vw;
 
-  background: linear-gradient(#000a 10%, #0000);
+  background: linear-gradient(#000a 80%, #0000);
   color: white;
   text-align: center;
 }
@@ -61,7 +61,6 @@ button:active {
 }
 
 /* Home */
-
 .card {
   margin-top: 25px;
 
@@ -79,14 +78,18 @@ button:active {
 }
 
 /* Menu */
+.menu-title {
+  margin-bottom: 25px;
+}
+
 .menu-items-container {
-  background-color: rgba(160, 160, 160, 0.8);
+  background-color: rgba(160, 160, 160, 0.9);
   border-radius: 25px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 10px 20px;
+  padding: 10px 25px;
   gap: 25px;
 
   color: black;

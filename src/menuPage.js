@@ -35,6 +35,7 @@ export function createMenu(parent) {
 
   menuTitle.textContent = "Menu";
 
+  menuTitle.classList.add("menu-title");
   menuItemContainer.classList.add("menu-items-container");
 
   for (const item in Items) {
