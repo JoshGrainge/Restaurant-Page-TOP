@@ -1,5 +1,6 @@
 import { createHomePage } from "./homePage";
 import { createMenu } from "./menuPage";
+import { createInfo } from "./infoPage";
 
 const content = document.querySelector("#content");
 
@@ -7,19 +8,18 @@ function homeTabClick() {
   clearAllChildren();
   createTabMenu(content);
   createHomePage(content);
-  console.log("Created home page");
 }
 
 function menuTabClick() {
   clearAllChildren();
   createTabMenu(content);
   createMenu(content);
-  console.log("Created MENU page");
 }
 
 function infoTabClick() {
   clearAllChildren();
   createTabMenu(content);
+  createInfo(content);
 }
 
 function clearAllChildren() {

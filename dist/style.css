@@ -123,3 +123,30 @@ button:active {
 .price {
   float: right;
 }
+
+/* Info */
+.info-title {
+  margin: 25px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+
+  height: 50vh;
+
+  text-align: left;
+}
+
+.store-info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.founder-image {
+  height: 300px;
+  width: auto;
+  object-fit: scale-down;
+}
